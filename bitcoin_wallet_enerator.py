@@ -1,5 +1,4 @@
 #Yes i know the heat death of the universe will happen before i find a wallet with coins, this is just a proof of concept
-
 # This is a script to generate bitcon addresses and their corresponding private keys and add it to a database to later watch the addresses to see if the wallets ever receive any coins
 
 from bitcoinaddress import Wallet
