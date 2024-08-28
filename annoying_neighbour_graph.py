@@ -7,7 +7,7 @@ from collections import Counter
 from matplotlib.ticker import MaxNLocator
 from matplotlib.animation import FuncAnimation
 
-conn = mysql.connector.connect(host="192.168.4.222", database="seabee", user="readonly", password="readonly")
+conn = mysql.connector.connect(host="localhost", database="seabee", user="readonly", password="readonly")
 
 with conn.cursor() as cursor:
     cursor.execute("SELECT time FROM dog ORDER BY time ASC") 
